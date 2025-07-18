@@ -114,7 +114,7 @@ void loop()
         return;
       }
 
-      for (size_t i = 0; i < 12; i++)
+      for (size_t i = 11; i >= 0; i++)
       {
         auto data = tagTmp[i];
         tagList[tagListSize][i] = data;
