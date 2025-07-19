@@ -72,6 +72,7 @@ void loop()
       // if (keepAliveCounter >= 2)
       // {
       Serial.write(SLIP_END);
+      Serial.write(SLIP_END);
       keepAliveCounter = 0;
       tagListSize = 0;
       // }
